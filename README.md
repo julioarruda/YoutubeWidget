@@ -2,9 +2,7 @@
 
 The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VSTS on your dashboards.
 
-Build ![](https://vstssprints.visualstudio.com/YoutubeWidget/_apis/build/status/VSTSSprintsWidget)
-
-Deployment ![](https://vstssprints.vsrm.visualstudio.com/_apis/public/Release/badge/401f8d88-e8be-40d6-8f0c-1d3c371b50e8/1/1)
+Build And Publish[![](https://tfsjulio.visualstudio.com/Github%20Projetcs/_apis/build/status/JulioArrudaExtension)](https://tfsjulio.visualstudio.com/Github%20Projetcs/_build/latest?definitionId=33)
 
 ![sample](img/overview_sample.png)
 
@@ -14,15 +12,18 @@ Deployment ![](https://vstssprints.vsrm.visualstudio.com/_apis/public/Release/ba
 
 2. Edit your dashboard.
 
-3. Select the **Youtube Playlist Browser** and click Add.
+3. Select the **Julio Arruda Playlist Browser** and click Add.
  
 ![sample](img/add_widget.png)
+ 
+## Repo Original
+This repo was forked from VSTS Sprints (vinijmoura/YoutubeWidget)
  
 ## Contributors
 We thank the following contributor(s) for this extension: Gustavo Bergamin.
 
 ##Contribute
-Contributions to VSTS Sprints Widget are welcome. Please fork this repo.
+Contributions to Julio Arruda Widget are welcome. Please fork this repo.
 
 - Submit bugs and help us verify fixes.
 - Submit pull requests for bug fixes and features and discuss existing proposals.

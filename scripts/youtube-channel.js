@@ -6,10 +6,10 @@ VSS.init({
 VSS.require(["TFS/Dashboards/WidgetHelpers"],
     function (WidgetHelpers) {
         WidgetHelpers.IncludeWidgetStyles();
-        VSS.register("VSTSSprintsYouTubeWidget", function () {
+        VSS.register("JulioArrudaYouTubeWidget", function () {
 
             var youTubeBaseUrl = 'https://www.googleapis.com/youtube/v3/';
-            var youTubeApiKeyParam = '?key=AIzaSyBDXFLg0yL4fMa212cGlLYfk8CYcZPEANA';
+            var youTubeApiKeyParam = '?key=AIzaSyDOLLdvq5LTfYN4HpS61aC5zuFSem46BzM';
 
             var $dropPlaylists = $('#dropPlaylists');
             var $listVideosContainer = $('#listVideosContainer');
@@ -30,7 +30,7 @@ VSS.require(["TFS/Dashboards/WidgetHelpers"],
                 $dropPlaylists.empty();
                 var url = youTubeBaseUrl + 'playlists';
                 url += youTubeApiKeyParam;
-                url += '&part=id,snippet,status&channelId=UC_QhmUDhKhUKKTC6aJr7n2g&maxResults=50';
+                url += '&part=id,snippet,status&channelId=UCnQzZNPePG3EZMj7Qg3D0Sw&maxResults=50';
                 $.get(url,
                     function (data, status) {
                         var result = data;

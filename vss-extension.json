@@ -1,10 +1,11 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-sprints-widgets",
-    "version": "1.0.8",
-    "name": "VSTS Sprints Widgets",
-    "description": "Helpful widgets from VSTS Sprints YouTube Channel",
-    "publisher": "vsts-sprints",
+    "id": "julioarruda-widgets",
+    "version": "1.0.14",
+    "name": "Julio Arruda Widgets",
+    "description": "Helpful widgets from Julio Arruda YouTube Channel",
+    "publisher": "julioarrudac",
+	"categories": ["Collaborate"],
     "icons": {
         "default": "img/logo.png"
     },
@@ -14,7 +15,7 @@
         }
     ],
     "tags": [
-        "VSTSSprints",
+        "Julio Arruda",
         "Widget"
     ],
     "content": {
@@ -27,18 +28,18 @@
     },
     "links": {
         "repository": {
-          "uri": "https://github.com/vinijmoura/YoutubeWidget"
+          "uri": "https://github.com/julioarruda/YoutubeWidget"
         },
         "issues": {
-          "uri": "https://github.com/vinijmoura/YoutubeWidget/issues"
+          "uri": "https://github.com/julioarruda/YoutubeWidget/issues"
         },
         "support": {
-          "uri": "https://github.com/vinijmoura/YoutubeWidget"
+          "uri": "https://github.com/julioarruda/YoutubeWidget"
         }
       },
       "repository": {
         "type": "git",
-        "uri": "https://github.com/vinijmoura/YoutubeWidget"
+        "uri": "https://github.com/julioarruda/YoutubeWidget"
       },
     "files": [
         { "path": "youtube-channel.html", "addressable": true },
@@ -49,14 +50,14 @@
     ],
     "contributions": [
         {
-            "id": "VSTSSprintsYouTubeWidget",
+            "id": "JulioArrudaYouTubeWidget",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
                 "ms.vss-dashboards-web.widget-catalog"
             ],
             "properties": {
-                "name": "Youtube Playlist Browser",
-                "description": "Browse VSTS Sprints playlists on YouTube",                         
+                "name": "Julio Arruda Playlist Browser",
+                "description": "Browse Julio Arruda playlists on YouTube",                         
                 "uri": "youtube-channel.html",
                 "catalogIconUrl": "img/logo.png",
                 "supportedSizes": [
