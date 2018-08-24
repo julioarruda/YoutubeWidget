@@ -7,7 +7,7 @@
     "publisher": "julioarrudac",
 	"categories": ["Collaborate"],
     "icons": {
-        "default": "img/logo.png"
+        "default": "img/logo.ico"
     },
     "targets": [
         {
