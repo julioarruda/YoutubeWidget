@@ -1,6 +1,6 @@
 ## Tutorial
 
-The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VSTS on your dashboards.
+The **Julio Arruda Widgets** shows all videos of Julio Arruda Channel within VSTS on your dashboards.
 
 Build And Publish[![](https://tfsjulio.visualstudio.com/Github%20Projetcs/_apis/build/status/JulioArrudaExtension)](https://tfsjulio.visualstudio.com/Github%20Projetcs/_build/latest?definitionId=33)
 
